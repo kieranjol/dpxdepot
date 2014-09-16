@@ -8,5 +8,7 @@ ffmpeg -i DPXNAME_%06d.dpx -c:v prores -profile:v 3 DPXtoProResHQ.mov
 
 ffmpeg -i DPXNAME_%06d.dpx -c:v v210 DPXtoProResHQ.mov
 
+#x264
 
+ffmpeg -i DPXNAME_%06D.dpx -c:v libx264 PDXtox264.mov
 
