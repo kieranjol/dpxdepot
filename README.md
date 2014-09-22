@@ -4,7 +4,7 @@ Workflows for making derivatives of DPX image sequences.
 
 Contents include:
 
-/DPX_sample/ - sample of 1 DPX sequence, eight frames long (000000-000008)
+/DPX_sample/ - sample of 1 DPX sequence, eight frames long (000001-000008)
 
 fffmpeg - commands for making DPX derivatives
 
