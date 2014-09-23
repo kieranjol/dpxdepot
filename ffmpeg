@@ -4,6 +4,10 @@
 
 ffmpeg -i DPXNAME_%06d.dpx -c:v prores -profile:v 3 DPXtoProResHQ.mov
 
+#ProRes422LT
+
+ffmpeg -i DPXNAME_%06d.dpx -c:v prores -profile:v 1 DPXtoProResHQ.mov
+
 #10-bit uncompressed Quicktime
 
 ffmpeg -i DPXNAME_%06d.dpx -c:v v210 DPXtoProResHQ.mov
