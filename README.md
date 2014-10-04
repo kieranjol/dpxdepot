@@ -8,4 +8,4 @@ Contents include:
 
 fffmpeg - commands for making DPX derivatives
 
-samplepositive_8frames.jpg - scanned 8 frames including perforations and mute track
+samplepositive_8frames.jpg - scanned 8 frames including perforations and muted soundtrack
