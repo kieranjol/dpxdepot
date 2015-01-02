@@ -18,3 +18,26 @@ Field,Offset,Length,Type,Core,Content
 18,770,2,U16,C ,Number of image elements
 19,772,4,U32,C ,Pixels per line
 20,776,4,U32,C ,Lines per image element
+21.1,780,4,U32,,Data sign (0 = unsigned; 1 = signed) / Core set images are unsigned.
+21.2,784,4,U32,,Reference low data code value
+21.3,788,4,R32,,Reference low quantity represented
+21.4,792,4,U32,,Reference high data code value
+21.5,796,4,R32,,Reference high quantity represented
+21.6,800,1,U8,C ,Descriptor for image element 1 (see table 1)
+21.7,801,1,U8,C ,Transfer characteristic for image element 1 (see table 5A)
+21.8,802,1,U8,C ,Colorimetric specification for image element 1 (see table 5B)
+21.9,803,1,U8,C ,Bit size for image element 1 (see table 3A)
+21.10,804,2,U16,C ,Packing for image element 1 (see table 3B)
+21.11,806,2,U16,C ,Encoding for image element 1 (see table 3C)
+21.12,808,4,U32,C ,Offset to data for image element 1
+21.13,812,4,U32,,End-of-line padding for image element 1
+21.14,816,4,U32,,End-of-image padding for image element 1
+21.15,820,32,ASCII,,Description of image element 1
+22,852,72,Structure,,Image element 2
+23,924,72,Structure,,Image element 3
+24,996,72,Structure,,Image element 4
+25,1068,72,Structure,,Image element 5
+26,1140,72,Structure,,Image element 6
+27,1212,72,Structure,,Image element 7
+28,1284,72,Structure,,Image element 8
+29,1356,52,TBD,,Reserved for future use
