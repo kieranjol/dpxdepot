@@ -41,3 +41,16 @@ Field,Offset,Length,Type,Core,Content
 27,1212,72,Structure,,Image element 7
 28,1284,72,Structure,,Image element 8
 29,1356,52,TBD,,Reserved for future use
+30,1408,4,U32,,X offset
+31,1412,4,U32,,Y offset
+32,1416,4,R32,,X center
+33,1420,4,R32,,Y center
+34,1424,4,U32,,X original size
+35,1428,4,U32,,Y original size
+36,1432,100,ASCII,,Source image filename
+37,1532,24,ASCII,,Source image date/time: YYYY:MM:DD:HH:MM:SS:LTZ 
+38,1556,32,ASCII,,Input device name
+39,1588,32,ASCII,,Input device serial number
+40,1620,8,U16*4,,"Border validity: XL, XR, YT, YB border "
+41,1628,8,U32*2,,Pixel aspect ratio (horizontal:vertical)
+42,1636,28,TBD,,Reserved for future use
