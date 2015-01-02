@@ -1,0 +1,107 @@
+00000000 -------------------------
+00000000 ---   DPX, accepted   ---
+00000000 -------------------------
+00000000 Generic section header (1664 bytes)
+00000000  File information (768 bytes)
+00000000   Magic number:                            XPDS
+00000004   Offset to image data:                    2048 (0x800)
+00000008   Version number of header format:         V2.0
+00000010   Total image file size:                   12443648 (0xBDE000)
+00000014   Ditto Key:                               16777216 (0x01000000)
+00000018   Generic section header length:           1664 (0x680)
+0000001C   Industry specific header length:         384 (0x180)
+00000020   User-defined header length:              0 (0x0)
+00000024   FileName:                                V:\\EP_POS_JONES_DPX12bit\EP_POS_JONES_DPX12bit-1-01\EP_POS_JONES_DPX12bit-1-01_000243.dpx
+00000088   Creation Date:                           2014:09:13:12:42:45LTZ
+000000A0   Creator:                                 Untitled Project
+00000104   Project:                                 AgiScan 3.4.0
+000001CC   Right to use or copyright statement:     2014
+00000294   Encryption key:                          4294967295 (0xFFFFFFFF)
+00000298   Reserved for future use:                 (104 bytes)
+00000300  Image information (640 bytes)
+00000300   Image orientation:                       0 (0x0000) - Left to right, Top to bottom
+00000302   Number of image elements:                1 (0x0001)
+00000304   Pixels per line:                         1920 (0x780)
+00000308   Lines per image element:                 1080 (0x438)
+0000030C   image element (72 bytes)
+0000030C    Data sign:                              0 (0x00000000) - unsigned
+00000310    Reference low data code value:          65536 (0x00010000)
+00000314    Reference low quantity represented:     0.006
+00000318    Reference high data code value:         2953707520 (0xB00E0000)
+0000031C    Reference high quantity represented:    0.006
+00000320    Descriptor:                             50 (0x32) - R,G,B
+00000321    Transfer characteristic:                2 (0x02) - Linear
+00000322    Colorimetric specification:             2 (0x02) - 
+00000323    Bit depth:                              12 (0x0C) - integer
+00000324    Packing:                                256 (0x0100) - invalid
+00000326    Encoding:                               0 (0x0000) - No encoding applied
+00000328    Offset to data:                         524288 (0x00080000)
+0000032C    End-of-line padding:                    0 (0x00000000)
+00000330    End-of-image padding:                   0 (0x00000000)
+00000334    Description of image element
+00000354   Padding:                                 (504 bytes)
+0000054C   Reserved for future use:                 (52 bytes)
+00000580  Image source information (256 bytes)
+00000580   X Offset:                                4294967295 (0xFFFFFFFF)
+00000584   Y Offset:                                4294967295 (0xFFFFFFFF)
+00000588   X center:                                0.006
+0000058C   Y center:                                0.006
+00000590   X original size:                         4294967295 (0xFFFFFFFF)
+00000594   Y original size:                         4294967295 (0xFFFFFFFF)
+00000598   Source image filename
+000005FC   Source image date/time
+00000614   Input device name
+00000634   Input device serial number
+00000654   Border validity (8 bytes)
+00000654    XL border:                              65535 (0xFFFF)
+00000656    XR border:                              65535 (0xFFFF)
+00000658    YT border:                              65535 (0xFFFF)
+0000065A    YB border:                              65535 (0xFFFF)
+0000065C   Pixel ratio : horizontal:                4294967295 (0xFFFFFFFF)
+00000660   Pixel ratio : vertical:                  4294967295 (0xFFFFFFFF)
+00000664   Additional source image information (28 bytes)
+00000664    X scanned size:                         0.007
+00000668    Y scanned size:                         0.004
+0000066C    Reserved for future use:                (20 bytes)
+00000680 Industry specific header (384 bytes)
+00000680  Motion-picture film information (256 bytes)
+00000680   Film mfg. ID code
+00000682   Film type
+00000684   Offset in perfs
+00000686   Prefix
+0000068C   Count
+00000690   Format - e.g. Academy
+000006B0   Frame position in sequence:              4294967295 (0xFFFFFFFF)
+000006B4   Sequence length (frames):                4294967295 (0xFFFFFFFF)
+000006B8   Held count (1 = default):                4294967295 (0xFFFFFFFF)
+000006BC   Frame rate of original (frames/s):       0.006
+000006C0   Shutter angle of camera in degrees:      0.006
+000006C4   Frame identification - e.g. keyframe
+000006E4   Slate information
+00000748   Reserved for future use:                 (56 bytes)
+00000780  Television information (128 bytes)
+00000780   SMPTE time code:                         4294967295 (0xFFFFFFFF)
+00000784   SMPTE user bits:                         4294967295 (0xFFFFFFFF)
+00000788   Interlace:                               255 (0xFF) - 2:1 interlace
+00000789   Field number:                            255 (0xFF)
+0000078A   Video signal standard:                   0 (0x00) - Undefined
+0000078B   Zero:                                    255 (0xFF)
+0000078C   Horizontal sampling rate (Hz):           0.006
+00000790   Vertical sampling rate (Hz):             0.006
+00000794   Temporal sampling rate or frame rate (Hz:0.006
+00000798   Time offset from sync to first pixel (ms:0.006
+0000079C   Gamma:                                   0.006
+000007A0   Black level code value:                  0.006
+000007A4   Black gain:                              0.006
+000007A8   Breakpoint:                              0.006
+000007AC   Reference white level code value:        0.006
+000007B0   Integration time (s):                    0.006
+000007B4   Reserved for future use:                 (76 bytes)
+00000800 Image Data (12441600 bytes)
+00000800  Data:                                     (12441600 bytes)
+00BDE000 ------------------------
+00BDE000 ---   DPX, filling   ---
+00BDE000 ------------------------
+00BDE000 -------------------------
+00BDE000 ---   DPX, finished   ---
+00BDE000 -------------------------
