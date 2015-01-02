@@ -1,0 +1,20 @@
+Field,Offset,Length,Type,Core,Content
+1,0,4,U32,C ,Magic number (SDPX ASCII)
+2,4,4,U32,C ,Offset to image data in bytes
+3,8,8,ASCII,C ,Version number of header format (V1.0)
+4,16,4,U32,C ,Total image file size in bytes
+5,20,4,U32,,Ditto key (0 = same as previous frame; 1 = new) 
+6,24,4,U32,,Generic section header length in bytes
+7,28,4,U32,,Industry specific header length in bytes 
+8,32,4,U32,,User-defined header length in bytes
+9,36,100,ASCII,,Image filename
+10,136,24,ASCII,,Creation date/time: YYYY:MM:DD:HH:MM:SS:LTZ 
+12,160,100,ASCII,,Creator
+13,260,200,ASCII,,Project name
+14,460,200,ASCII,,Right to use or copyright statement
+15,660,4,U32,,Encryption key (FFFFFFFF unencrypted) 
+16,664,104,TBD,,Reserved for future use
+17,768,2,U16,C ,Image orientation (see table 2) 
+18,770,2,U16,C ,Number of image elements
+19,772,4,U32,C ,Pixels per line
+20,776,4,U32,C ,Lines per image element
