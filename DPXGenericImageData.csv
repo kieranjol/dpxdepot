@@ -1,90 +1,90 @@
-Field,Offset,Length,Type,Core,Data Type,Content
-1,0,4,U32,C ,File information,Magic number (SDPX ASCII)
-2,4,4,U32,C ,File information,Offset to image data in bytes
-3,8,8,ASCII,C ,File information,Version number of header format (V1.0)
-4,16,4,U32,C ,File information,Total image file size in bytes
-5,20,4,U32,,File information,Ditto key (0 = same as previous frame; 1 = new) 
-6,24,4,U32,,File information,Generic section header length in bytes
-7,28,4,U32,,File information,Industry specific header length in bytes 
-8,32,4,U32,,File information,User-defined header length in bytes
-9,36,100,ASCII,,File information,Image filename
-10,136,24,ASCII,,File information,Creation date/time: YYYY:MM:DD:HH:MM:SS:LTZ 
-12,160,100,ASCII,,File information,Creator
-13,260,200,ASCII,,File information,Project name
-14,460,200,ASCII,,File information,Right to use or copyright statement
-15,660,4,U32,,File information,Encryption key (FFFFFFFF unencrypted) 
-16,664,104,TBD,,File information,Reserved for future use
-17,768,2,U16,C ,Image information,Image orientation (see table 2) 
-18,770,2,U16,C ,Image information,Number of image elements
-19,772,4,U32,C ,Image information,Pixels per line
-20,776,4,U32,C ,Image information,Lines per image element
-21.1,780,4,U32,,Image information,Data sign (0 = unsigned; 1 = signed) / Core set images are unsigned.
-21.2,784,4,U32,,Image information,Reference low data code value
-21.3,788,4,R32,,Image information,Reference low quantity represented
-21.4,792,4,U32,,Image information,Reference high data code value
-21.5,796,4,R32,,Image information,Reference high quantity represented
-21.6,800,1,U8,C ,Image information,Descriptor for image element 1 (see table 1)
-21.7,801,1,U8,C ,Image information,Transfer characteristic for image element 1 (see table 5A)
-21.8,802,1,U8,C ,Image information,Colorimetric specification for image element 1 (see table 5B)
-21.9,803,1,U8,C ,Image information,Bit size for image element 1 (see table 3A)
-21.10,804,2,U16,C ,Image information,Packing for image element 1 (see table 3B)
-21.11,806,2,U16,C ,Image information,Encoding for image element 1 (see table 3C)
-21.12,808,4,U32,C ,Image information,Offset to data for image element 1
-21.13,812,4,U32,,Image information,End-of-line padding for image element 1
-21.14,816,4,U32,,Image information,End-of-image padding for image element 1
-21.15,820,32,ASCII,,Image information,Description of image element 1
-22,852,72,Structure,,Image information,Image element 2
-23,924,72,Structure,,Image information,Image element 3
-24,996,72,Structure,,Image information,Image element 4
-25,1068,72,Structure,,Image information,Image element 5
-26,1140,72,Structure,,Image information,Image element 6
-27,1212,72,Structure,,Image information,Image element 7
-28,1284,72,Structure,,Image information,Image element 8
-29,1356,52,TBD,,Image information,Reserved for future use
-30,1408,4,U32,,Image orientation information,X offset
-31,1412,4,U32,,Image orientation information,Y offset
-32,1416,4,R32,,Image orientation information,X center
-33,1420,4,R32,,Image orientation information,Y center
-34,1424,4,U32,,Image orientation information,X original size
-35,1428,4,U32,,Image orientation information,Y original size
-36,1432,100,ASCII,,Image orientation information,Source image filename
-37,1532,24,ASCII,,Image orientation information,Source image date/time: YYYY:MM:DD:HH:MM:SS:LTZ 
-38,1556,32,ASCII,,Image orientation information,Input device name
-39,1588,32,ASCII,,Image orientation information,Input device serial number
-40,1620,8,U16*4,,Image orientation information,"Border validity: XL, XR, YT, YB border "
-41,1628,8,U32*2,,Image orientation information,Pixel aspect ratio (horizontal:vertical)
-42,1636,28,TBD,,Image orientation information,Reserved for future use
-43,1664,2,ASCII,,Motion-picture film information,Film mfg. ID code (2 digits from film edge code)
-44,1666,2,ASCII,,Motion-picture film information,Film type (2 digits from film edge code)
-45,1668,2,ASCII,,Motion-picture film information,Offset in perfs (2 digits from film edge code)
-47,1670,6,ASCII,,Motion-picture film information,Prefix (6 digits from film edge code)
-48,1676,4,ASCII,,Motion-picture film information,Count (4 digits from film edge code)
-49,1680,32,ASCII,,Motion-picture film information,Format -- e.g. Academy
-50,1712,4,U32,,Motion-picture film information,Frame position in sequence
-51,1716,4,U32,,Motion-picture film information,Sequence length (frames)
-52,1720,4,U32,,Motion-picture film information,Held count (1 = default)
-53,1724,4,R32,,Motion-picture film information,Frame rate of original (frames/s)
-54,1728,4,R32,,Motion-picture film information,Shutter angle of camera in degrees
-55,1732,32,ASCII,,Motion-picture film information,Frame identification -- e.g. keyframe
-56,1764,100,ASCII,,Motion-picture film information,Slate information
-57,1864,56,TBD,,Motion-picture film information,Reserved for future use
-58,1920,4,R32,,Television Information,SMPTE time code
-59,1924,4,R32,,Television Information,SMPTE user bits
-60,1928,1,U8,,Television Information,Interlace (0 = noninterlaced; 1 = 2:1 interlace)
-61,1929,1,U8,,Television Information,Field number
-62,1930,1,U8,,Television Information,Video signal standard (see table 4)
-63,1931,1,U8,,Television Information,Zero (for byte alignment)
-64,1932,4,R32,,Television Information,Horizontal sampling rate (Hz)
-65,1936,4,R32,,Television Information,Vertical sampling rate (Hz)
-66,1940,4,R32,,Television Information,Temporal sampling rate or frame rate (Hz)
-67,1944,4,R32,,Television Information,Time offset from sync to first pixel (μs)
-68,1948,4,R32,,Television Information,Gamma
-69,1952,4,R32,,Television Information,Black level code value
-70,1956,4,R32,,Television Information,Black gain
-71,1960,4,R32,,Television Information,Breakpoint
-72,1964,4,R32,,Television Information,Reference white level code value
-73,1968,4,R32,,Television Information,Integration time (s)
-74,1972,76,TBD,,Television Information,Reserved for future use
-75,2048,32,ASCII,,User-defined data,User identification
-76,2080,xx,TBD,,User-defined data,"User defined ---- Postage stamp, processing logs, etc."
-77,xx,xx,Array / U8*4,,Image data,Image data should start at block boundary (8-K blocks are recommended for efficient use of tape storage devices)
+Field,Offset,Length,Type,Core,Data Type,Content,Code / representation
+1,0,4,U32,C ,File information,Magic number (SDPX ASCII),
+2,4,4,U32,C ,File information,Offset to image data in bytes,
+3,8,8,ASCII,C ,File information,Version number of header format (V1.0),
+4,16,4,U32,C ,File information,Total image file size in bytes,
+5,20,4,U32,,File information,Ditto key (0 = same as previous frame; 1 = new) ,
+6,24,4,U32,,File information,Generic section header length in bytes,
+7,28,4,U32,,File information,Industry specific header length in bytes ,
+8,32,4,U32,,File information,User-defined header length in bytes,
+9,36,100,ASCII,,File information,Image filename,
+10,136,24,ASCII,,File information,Creation date/time: YYYY:MM:DD:HH:MM:SS:LTZ ,
+12,160,100,ASCII,,File information,Creator,
+13,260,200,ASCII,,File information,Project name,
+14,460,200,ASCII,,File information,Right to use or copyright statement,
+15,660,4,U32,,File information,Encryption key (FFFFFFFF unencrypted) ,
+16,664,104,TBD,,File information,Reserved for future use,
+17,768,2,U16,C ,Image information,Image orientation (see table 2) ,
+18,770,2,U16,C ,Image information,Number of image elements,
+19,772,4,U32,C ,Image information,Pixels per line,
+20,776,4,U32,C ,Image information,Lines per image element,
+21.1,780,4,U32,,Image information,Data sign (0 = unsigned; 1 = signed) / Core set images are unsigned.,
+21.2,784,4,U32,,Image information,Reference low data code value,
+21.3,788,4,R32,,Image information,Reference low quantity represented,
+21.4,792,4,U32,,Image information,Reference high data code value,
+21.5,796,4,R32,,Image information,Reference high quantity represented,
+21.6,800,1,U8,C ,Image information,Descriptor for image element 1 (see table 1),
+21.7,801,1,U8,C ,Image information,Transfer characteristic for image element 1 ,"0 User defined, 1 Printing density , 2 Linear, 3 Logarithmic, 4 Unspecified video, 5 SMPTE 240M, 6 CCIR 709-1, 7 CCIR 601-2 system B or G (625), 8 CCIR 601-2 system M (525), 9 Composite video (NTSC); see SMPTE 170M, 10 Composite video (PAL); see CCIR 624-4, 11 Z (depth) -- linear, 12 Z (depth) -- homogeneous (distance to screen and angle of view must also be specified in user-defined section), 13-254 Reserved for future use"
+21.8,802,1,U8,C ,Image information,Colorimetric specification for image element 1,"0 User defined, 1 Printing density , 2 Not applicable, 3 Not applicable, 4 Unspecified video, 5 SMPTE 240M, 6 CCIR 709-1, 7 CCIR 601-2 system B or G (625), 8 CCIR 601-2 system M (525), 9 Composite video (NTSC); see SMPTE 170M, 10 Composite video (PAL); see CCIR 624-4, 11 Not applicable, 12 Not applicable, 13-254 Reserved for future use"
+21.9,803,1,U8,C ,Image information,Bit size for image element 1 (see table 3A),
+21.10,804,2,U16,C ,Image information,Packing for image element 1 (see table 3B),
+21.11,806,2,U16,C ,Image information,Encoding for image element 1 (see table 3C),
+21.12,808,4,U32,C ,Image information,Offset to data for image element 1,
+21.13,812,4,U32,,Image information,End-of-line padding for image element 1,
+21.14,816,4,U32,,Image information,End-of-image padding for image element 1,
+21.15,820,32,ASCII,,Image information,Description of image element 1,
+22,852,72,Structure,,Image information,Image element 2,
+23,924,72,Structure,,Image information,Image element 3,
+24,996,72,Structure,,Image information,Image element 4,
+25,1068,72,Structure,,Image information,Image element 5,
+26,1140,72,Structure,,Image information,Image element 6,
+27,1212,72,Structure,,Image information,Image element 7,
+28,1284,72,Structure,,Image information,Image element 8,
+29,1356,52,TBD,,Image information,Reserved for future use,
+30,1408,4,U32,,Image orientation information,X offset,
+31,1412,4,U32,,Image orientation information,Y offset,
+32,1416,4,R32,,Image orientation information,X center,
+33,1420,4,R32,,Image orientation information,Y center,
+34,1424,4,U32,,Image orientation information,X original size,
+35,1428,4,U32,,Image orientation information,Y original size,
+36,1432,100,ASCII,,Image orientation information,Source image filename,
+37,1532,24,ASCII,,Image orientation information,Source image date/time: YYYY:MM:DD:HH:MM:SS:LTZ ,
+38,1556,32,ASCII,,Image orientation information,Input device name,
+39,1588,32,ASCII,,Image orientation information,Input device serial number,
+40,1620,8,U16*4,,Image orientation information,"Border validity: XL, XR, YT, YB border ",
+41,1628,8,U32*2,,Image orientation information,Pixel aspect ratio (horizontal:vertical),
+42,1636,28,TBD,,Image orientation information,Reserved for future use,
+43,1664,2,ASCII,,Motion-picture film information,Film mfg. ID code (2 digits from film edge code),
+44,1666,2,ASCII,,Motion-picture film information,Film type (2 digits from film edge code),
+45,1668,2,ASCII,,Motion-picture film information,Offset in perfs (2 digits from film edge code),
+47,1670,6,ASCII,,Motion-picture film information,Prefix (6 digits from film edge code),
+48,1676,4,ASCII,,Motion-picture film information,Count (4 digits from film edge code),
+49,1680,32,ASCII,,Motion-picture film information,Format -- e.g. Academy,
+50,1712,4,U32,,Motion-picture film information,Frame position in sequence,
+51,1716,4,U32,,Motion-picture film information,Sequence length (frames),
+52,1720,4,U32,,Motion-picture film information,Held count (1 = default),
+53,1724,4,R32,,Motion-picture film information,Frame rate of original (frames/s),
+54,1728,4,R32,,Motion-picture film information,Shutter angle of camera in degrees,
+55,1732,32,ASCII,,Motion-picture film information,Frame identification -- e.g. keyframe,
+56,1764,100,ASCII,,Motion-picture film information,Slate information,
+57,1864,56,TBD,,Motion-picture film information,Reserved for future use,
+58,1920,4,R32,,Television Information,SMPTE time code,
+59,1924,4,R32,,Television Information,SMPTE user bits,
+60,1928,1,U8,,Television Information,Interlace (0 = noninterlaced; 1 = 2:1 interlace),
+61,1929,1,U8,,Television Information,Field number,
+62,1930,1,U8,,Television Information,Video signal standard (see table 4),
+63,1931,1,U8,,Television Information,Zero (for byte alignment),
+64,1932,4,R32,,Television Information,Horizontal sampling rate (Hz),
+65,1936,4,R32,,Television Information,Vertical sampling rate (Hz),
+66,1940,4,R32,,Television Information,Temporal sampling rate or frame rate (Hz),
+67,1944,4,R32,,Television Information,Time offset from sync to first pixel (μs),
+68,1948,4,R32,,Television Information,Gamma,
+69,1952,4,R32,,Television Information,Black level code value,
+70,1956,4,R32,,Television Information,Black gain,
+71,1960,4,R32,,Television Information,Breakpoint,
+72,1964,4,R32,,Television Information,Reference white level code value,
+73,1968,4,R32,,Television Information,Integration time (s),
+74,1972,76,TBD,,Television Information,Reserved for future use,
+75,2048,32,ASCII,,User-defined data,User identification,
+76,2080,xx,TBD,,User-defined data,"User defined ---- Postage stamp, processing logs, etc.",
+77,xx,xx,Array / U8*4,,Image data,Image data should start at block boundary (8-K blocks are recommended for efficient use of tape storage devices),
