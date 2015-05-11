@@ -1,4 +1,4 @@
-#FFMpeg scripts for making derivatives of DPX sequences
+#FFMpeg commands for making derivatives of DPX sequences
 
 #ProRes422HQ
 
@@ -15,4 +15,9 @@ ffmpeg -i DPXNAME_%06d.dpx -c:v v210 DPXtoProResHQ.mov
 #x264
 
 ffmpeg -i DPXNAME_%06D.dpx -c:v libx264 PDXtox264.mov
+
+
+Note: for DPX sequences starting with 00086400 (captured at timecode 01:00:00:00), use the flag -start_number 0086400 before -i in the ffmpeg command. For example:
+
+ffmpeg -start_number 0086400 -i DPXNAME_%06d.dpx -c:v prores -profile:v 3 DPXtoProResHQ.mov
 
