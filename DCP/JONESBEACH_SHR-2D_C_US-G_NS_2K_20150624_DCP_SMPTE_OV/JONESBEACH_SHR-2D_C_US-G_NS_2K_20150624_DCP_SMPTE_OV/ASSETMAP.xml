@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetMap xmlns="http://www.smpte-ra.org/schemas/429-9/2007/AM">
+  <Id>urn:uuid:b2a873c6-5898-4f4a-b536-c95a56908a24</Id>
+  <Creator>OpenDCP 0.30.0</Creator>
+  <VolumeCount>1</VolumeCount>
+  <IssueDate>2015-06-24T07:53:10+00:00</IssueDate>
+  <Issuer/>
+  <AssetList>
+    <Asset>
+      <Id>urn:uuid:71027b5d-f522-433a-b955-11ead51a146a</Id>
+      <PackingList>true</PackingList>
+      <ChunkList>
+        <Chunk>
+          <Path>PKL_71027b5d-f522-433a-b955-11ead51a146a.xml</Path>
+          <VolumeIndex>1</VolumeIndex>
+          <Offset>0</Offset>
+          <Length>8137</Length>
+        </Chunk>
+      </ChunkList>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:29727a21-3b49-4999-b5ad-971302b65701</Id>
+      <ChunkList>
+        <Chunk>
+          <Path>CPL_29727a21-3b49-4999-b5ad-971302b65701.xml</Path>
+          <VolumeIndex>1</VolumeIndex>
+          <Offset>0</Offset>
+          <Length>8599</Length>
+        </Chunk>
+      </ChunkList>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:83a68380-d8a0-4a28-ae82-b9acf76985d0</Id>
+      <ChunkList>
+        <Chunk>
+          <Path>J2K SAMPLE.mxf</Path>
+          <VolumeIndex>1</VolumeIndex>
+          <Offset>0</Offset>
+          <Length>10433359</Length>
+        </Chunk>
+      </ChunkList>
+    </Asset>
+  </AssetList>
+</AssetMap>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackingList xmlns="http://www.smpte-ra.org/schemas/429-8/2007/PKL" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+  <Id>urn:uuid:71027b5d-f522-433a-b955-11ead51a146a</Id>
+  <AnnotationText/>
+  <IssueDate>2015-06-24T07:53:10+00:00</IssueDate>
+  <Issuer/>
+  <Creator>OpenDCP 0.30.0</Creator>
+  <AssetList>
+    <Asset>
+      <Id>urn:uuid:83a68380-d8a0-4a28-ae82-b9acf76985d0</Id>
+      <AnnotationText>J2K SAMPLE.mxf</AnnotationText>
+      <Hash>3x+ETO0i/cJs/Xf8O+LKrIYnFQc=</Hash>
+      <Size>10433359</Size>
+      <Type>application/mxf</Type>
+      <OriginalFileName>J2K SAMPLE.mxf</OriginalFileName>
+    </Asset>
+    <Asset>
+      <Id>urn:uuid:29727a21-3b49-4999-b5ad-971302b65701</Id>
+      <Hash>WE9A3opobLfU/kYhZ/xId71aKnU=</Hash>
+      <Size>8599</Size>
+      <Type>text/xml</Type>
+      <OriginalFileName>CPL_29727a21-3b49-4999-b5ad-971302b65701.xml</OriginalFileName>
+    </Asset>
+  </AssetList>
+  <Signer>
+    <dsig:X509Data>
+      <dsig:X509IssuerSerial>
+        <dsig:X509IssuerName>dnQualifier=oTcukRMxC8VtoIFyCQO9IpB9tDY=,CN=.opendcp.certificate.1.INTERMEDIATE,OU=OpenDCP,O=opendcp.org</dsig:X509IssuerName>
+        <dsig:X509SerialNumber>7</dsig:X509SerialNumber>
+      </dsig:X509IssuerSerial>
+      <dsig:X509SubjectName>dnQualifier=1FPyevRn3ByXjBQLxlW93CoVobs=,CN=CS.opendcp.certificate.0.DCP,OU=OpenDCP,O=opendcp.org</dsig:X509SubjectName>
+    </dsig:X509Data>
+  </Signer>
+  <dsig:Signature>
+    <dsig:SignedInfo>
+      <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <dsig:Reference URI="">
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <dsig:DigestValue>AwRdNZfEvIcHBHpPa0eZg/VsYrs=</dsig:DigestValue>
+      </dsig:Reference>
+    </dsig:SignedInfo>
+    <dsig:SignatureValue>tGrS5nzYoDFdCcLLn1mzLqPeP9ijAfGA2qBQx4/8uimK0HQr5V9gNmgqOXEZTQfr
+95EzVKmMTUDG3TtBmi1WB3FBti70xk8MyfLtOWIbzN/XRjM21pryMfuQSIIusaHa
+glZRQJOcMCbsMfulxJZv6mnA919qy/pz5SItcN/oCS+1TLxgTOd/hU9h+eYV+DO4
+ebZME3eY6MF88hbZ45bKEHQ+rBfQ8LxzBCMwdLTrjk65nEsx6hKLY/ImD9VPD4Mk
++2+b8OQOWspe6OKsQaiovKaJuNNqnx/PzCauruxVHnQ1BVaCj52Ysvhul2VSPx4G
+Y8radEDNw6ZuXinqCN18/A==</dsig:SignatureValue>
+    <dsig:KeyInfo>
+      <dsig:X509Data>
+        <dsig:X509IssuerSerial>
+          <dsig:X509IssuerName>dnQualifier=oTcukRMxC8VtoIFyCQO9IpB9tDY=,CN=.opendcp.certificate.1.INTERMEDIATE,OU=OpenDCP,O=opendcp.org</dsig:X509IssuerName>
+          <dsig:X509SerialNumber>7</dsig:X509SerialNumber>
+        </dsig:X509IssuerSerial>
+        <dsig:X509Certificate>MIIETjCCAzagAwIBAgIBBzANBgkqhkiG9w0BAQsFADB9MRQwEgYDVQQKEwtvcGVu
+ZGNwLm9yZzEQMA4GA1UECxMHT3BlbkRDUDEsMCoGA1UEAxMjLm9wZW5kY3AuY2Vy
+dGlmaWNhdGUuMS5JTlRFUk1FRElBVEUxJTAjBgNVBC4THG9UY3VrUk14QzhWdG9J
+RnlDUU85SXBCOXREWT0wHhcNMTAxMjIxMTcxOTI1WhcNMjAxMjE2MTcxOTI1WjB2
+MRQwEgYDVQQKEwtvcGVuZGNwLm9yZzEQMA4GA1UECxMHT3BlbkRDUDElMCMGA1UE
+AxMcQ1Mub3BlbmRjcC5jZXJ0aWZpY2F0ZS4wLkRDUDElMCMGA1UELhMcMUZQeWV2
+Um4zQnlYakJRTHhsVzkzQ29Wb2JzPTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAO+RNpMzof7P2ZnTy4hccfAzotkGPXCHryqiDJH0k5mG+BaEg8m+n4vt
+sZGdsVLSI6okKoVrViWY7ELyIcUeFXcE+ld92NBywpHr2wuQeuF2Lh1IQf8agD+m
+3N6pA41DqY4JnutF/Trd+YUVMSuzrKM6F9n4Y09nuhh/XXZ45r3xpE865NWDrRSL
+s8SbbCl4ULl9HfA4WArZiL34Rv8wD5DgCCaXg7bu8WCJczokTXjr5Owgqt9kdW1D
+ER1cpxuU2WV9VdFRuUXGlndQKy55PN1/TvoeDfI54sjMQCXkPt9XhsZFDMFoh25n
+zQmFzb4e8CkeBYn170xT4p/umFev4xcCAwEAAaOB3zCB3DAMBgNVHRMBAf8EAjAA
+MAsGA1UdDwQEAwIFoDAdBgNVHQ4EFgQU1FPyevRn3ByXjBQLxlW93CoVobswgZ8G
+A1UdIwSBlzCBlIAUoTcukRMxC8VtoIFyCQO9IpB9tDaheaR3MHUxFDASBgNVBAoT
+C29wZW5kY3Aub3JnMRAwDgYDVQQLEwdPcGVuRENQMSQwIgYDVQQDExsub3BlbmRj
+cC5jZXJ0aWZpY2F0ZS4yLlJPT1QxJTAjBgNVBC4THFVhQmZwdU5HdnkxSzFDcEJH
+NjhrRWdIczFpYz2CAQYwDQYJKoZIhvcNAQELBQADggEBAK5eNl6qz4Vm0GVqylK4
+xrPl4SPdNmhVG83vE9D38HmdNoGPBkPCXXpk6/5P8lXdsBpE1+mLdUlP1Q/2+XOT
+U900YeBVmqHWP1bVVnD1t+F8UY3+k3pwUDYVYkPqZSRw4hEkyM1vsxXIRD9cE+U2
+25PG++hcYqxr1Hy9pl5iRU0fiEJiuPWE2kFkkB9d0D07PbjThwCweS1DtAneAzdY
+Omfx//pTe/oQbH+wtMblGKLmdcHJ3FlXAcorLh5qrNQ4wF/6J6kHbHEp4xWkQuya
+B428K07+cQPHn3L/VKsB4gauNwXktkfVP0smCZjNXisIgZ8dN4C1T9iUB6OrcaNI
+SbA=</dsig:X509Certificate>
+      </dsig:X509Data>
+      <dsig:X509Data>
+        <dsig:X509IssuerSerial>
+          <dsig:X509IssuerName>dnQualifier=UaBfpuNGvy1K1CpBG68kEgHs1ic=,CN=.opendcp.certificate.2.ROOT,OU=OpenDCP,O=opendcp.org</dsig:X509IssuerName>
+          <dsig:X509SerialNumber>6</dsig:X509SerialNumber>
+        </dsig:X509IssuerSerial>
+        <dsig:X509Certificate>MIIEUzCCAzugAwIBAgIBBjANBgkqhkiG9w0BAQsFADB1MRQwEgYDVQQKEwtvcGVu
+ZGNwLm9yZzEQMA4GA1UECxMHT3BlbkRDUDEkMCIGA1UEAxMbLm9wZW5kY3AuY2Vy
+dGlmaWNhdGUuMi5ST09UMSUwIwYDVQQuExxVYUJmcHVOR3Z5MUsxQ3BCRzY4a0Vn
+SHMxaWM9MB4XDTEwMTIyMTE3MTkyNVoXDTIwMTIxNzE3MTkyNVowfTEUMBIGA1UE
+ChMLb3BlbmRjcC5vcmcxEDAOBgNVBAsTB09wZW5EQ1AxLDAqBgNVBAMTIy5vcGVu
+ZGNwLmNlcnRpZmljYXRlLjEuSU5URVJNRURJQVRFMSUwIwYDVQQuExxvVGN1a1JN
+eEM4VnRvSUZ5Q1FPOUlwQjl0RFk9MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA0hYsTKm4v5/oPrnfcEOEQnE1QC8aoT42oVsl5yNShGUJks2tiOquG2jw
+IvVUYYWLDdD0/Fk9WZCcZzcgNXZNGpGf1qH6xOXFxWTOWgCYk/vK/5pk+W26bOY3
+pJxJ4V+Aoe6QYuT6vAbswpBkLvBtw6nB8GPqdMslgTllR9QWXsqOCIPt0EQRnZe5
+FnvYpgfv3Wa11bygCJkevVAgTUK44nCEsufq8pasnysper+ncQFPTnol9x3xAHJw
+GGxzvOjZyoTWYahS5bB/VHnqsNNH6391eYMTOwt7LQ1/tvab322+pVLtAq6uiNWR
+KryLSdL//HU2oHRU4AtuV2uF897AlQIDAQABo4HlMIHiMBIGA1UdEwEB/wQIMAYB
+Af8CAQIwCwYDVR0PBAQDAgEGMB0GA1UdDgQWBBShNy6REzELxW2ggXIJA70ikH20
+NjCBnwYDVR0jBIGXMIGUgBRRoF+m40a/LUrUKkEbryQSAezWJ6F5pHcwdTEUMBIG
+A1UEChMLb3BlbmRjcC5vcmcxEDAOBgNVBAsTB09wZW5EQ1AxJDAiBgNVBAMTGy5v
+cGVuZGNwLmNlcnRpZmljYXRlLjIuUk9PVDElMCMGA1UELhMcVWFCZnB1Tkd2eTFL
+MUNwQkc2OGtFZ0hzMWljPYIBBTANBgkqhkiG9w0BAQsFAAOCAQEAboGvy5nFgLYd
+a3rZ0pyO6Ios/pb22Wf9E8633QNQXXeJqLE7Bg7SlQRIj6xeg4FTl1HEanKBdbpw
+SUfRxZlCSfnK0w03CEnlXryGFkpm3zLiSKK5csn+QrhwaRwalBrmnOtQYVE1EXgg
+FluGiugblc0nfdblrwntDGQFTwdEuiESzWN28b1zwIwSpzAdjth1a+gHko0icCHI
+bh15HnnrhV6oDl2Ji+rYNhL9bhT7lth52Fyj689s5hG7znq+2/WOotsgkCEya+0D
+PyGfFc9KAvzQbhQUqBqQKDN30zTobCiOV4Q/6ixzrOz3BzDAoLb5/SP+cKFgW5N6
+7DE9Qf5V2w==</dsig:X509Certificate>
+      </dsig:X509Data>
+      <dsig:X509Data>
+        <dsig:X509IssuerSerial>
+          <dsig:X509IssuerName>dnQualifier=UaBfpuNGvy1K1CpBG68kEgHs1ic=,CN=.opendcp.certificate.2.ROOT,OU=OpenDCP,O=opendcp.org</dsig:X509IssuerName>
+          <dsig:X509SerialNumber>5</dsig:X509SerialNumber>
+        </dsig:X509IssuerSerial>
+        <dsig:X509Certificate>MIIESzCCAzOgAwIBAgIBBTANBgkqhkiG9w0BAQsFADB1MRQwEgYDVQQKEwtvcGVu
+ZGNwLm9yZzEQMA4GA1UECxMHT3BlbkRDUDEkMCIGA1UEAxMbLm9wZW5kY3AuY2Vy
+dGlmaWNhdGUuMi5ST09UMSUwIwYDVQQuExxVYUJmcHVOR3Z5MUsxQ3BCRzY4a0Vn
+SHMxaWM9MB4XDTEwMTIyMTE3MTkyNFoXDTIwMTIxODE3MTkyNFowdTEUMBIGA1UE
+ChMLb3BlbmRjcC5vcmcxEDAOBgNVBAsTB09wZW5EQ1AxJDAiBgNVBAMTGy5vcGVu
+ZGNwLmNlcnRpZmljYXRlLjIuUk9PVDElMCMGA1UELhMcVWFCZnB1Tkd2eTFLMUNw
+Qkc2OGtFZ0hzMWljPTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMUK
+Al221rbAT6x4Xek5XlpF2MdY6cQ56DTE82kiC17AHHY67sHJlT0ijK87FC36lSo4
+N2voY+8IxmEuXwS9zAsPXciNd2weyM7BPcy/kBDSeP0Vt4vCVKrCoLvv86aGsAxJ
+zshCAkxfAR7Lf0ATYMmD3JaLchVhkz0BwiuMjmuI1t1a/n5pGzmxfQkWTaTDCMgv
+0boas2HyXiJoU/1cTt7NpZxT4Z6SolJdLWD1HGl5IjF8FDePog/RcE4MD/rYvgdz
+Y+WXFe0fBRJ2zfwBTiTscaeO9q5Lr9Afb3MGMtp/UNaY4aDA7EpqLzL+jpVSYIh8
+J7/5XaUWUqfJVM3k8N0CAwEAAaOB5TCB4jASBgNVHRMBAf8ECDAGAQH/AgEDMAsG
+A1UdDwQEAwIBBjAdBgNVHQ4EFgQUUaBfpuNGvy1K1CpBG68kEgHs1icwgZ8GA1Ud
+IwSBlzCBlIAUUaBfpuNGvy1K1CpBG68kEgHs1ieheaR3MHUxFDASBgNVBAoTC29w
+ZW5kY3Aub3JnMRAwDgYDVQQLEwdPcGVuRENQMSQwIgYDVQQDExsub3BlbmRjcC5j
+ZXJ0aWZpY2F0ZS4yLlJPT1QxJTAjBgNVBC4THFVhQmZwdU5HdnkxSzFDcEJHNjhr
+RWdIczFpYz2CAQUwDQYJKoZIhvcNAQELBQADggEBAFe7Xal301yTLeTJJfqcpPNQ
+zCA7gVUZ18G0MEoC2cY77lKmAdwEJM6WKsh2pjM2J8aKw8TM3+Bn1OuWmzkkyzO9
+eVBkdUKsQw10RAx/Yheln8pOvnM3zv98t41UGCXoK7V7tXllmLnVoTiV05ILYjcl
+8GexuMBiVckUSIavXPkr337+1FC2DA+g3SE6Ljke5KEVe9kaf2ml4z/UsXut5rKQ
+PSqM1rHwX9JJU3dG/eU96kq27lKQlDZci0bgYIpls+N6neLj6JflDWf1fETtIzw6
+Ub5y3neQNJWGCM2ppDd2MOvTZW1fpj9Dh0J7BuOTZz0suLMOFT0m5lHQIVy56L8=</dsig:X509Certificate>
+      </dsig:X509Data>
+    </dsig:KeyInfo>
+  </dsig:Signature>
+</PackingList>
