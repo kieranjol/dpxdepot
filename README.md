@@ -1,11 +1,12 @@
-dpxderivatives
+dpxdepot: one-stop shopping for DPX
 ==============
-Workflows for making derivatives of DPX image sequences. 
 
 Contents include:
 
-/DPX_sample/ - sample of 1 DPX sequence, eight frames long (000001-000008)
+/metadata - sample MediaInfo and GraphicsMagick verose readouts for review
 
-fffmpeg - commands for making DPX derivatives
+/scripts - scripts and commands for writing DPX header information, encoding to derivative files, etc.
 
-samplepositive_8frames.jpg - scanned 8 frames including perforations and muted soundtrack
+/specifications - contains metadata specifications as defined by SMPTE 268 2014
+
+/test_files - various test files including DPX image stacks, source film scans, DCPs, etc.
