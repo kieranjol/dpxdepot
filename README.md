@@ -1,6 +1,3 @@
-dpxdepot: one-stop shopping for DPX
-==============
-
 Contents include:
 
 /metadata - sample MediaInfo and GraphicsMagick verose readouts for review
