@@ -1,3 +1,7 @@
+/scripts - scripts and commands for writing DPX header information, encoding to derivative files, etc.
+
+The following metadata fields can be added/edited:
+
 dpx:file.copyright
 dpx:file.creation.datetime
 dpx:file.creator
