@@ -1,0 +1,66 @@
+Image: /Users/medialab/Desktop/MX_0089014.dpx
+  Format: DPX (SMPTE 268M-2003 (DPX 2.0))
+  Geometry: 2874x2160
+  Class: DirectClass
+  Type: grayscale
+  Depth: 8 bits-per-pixel component
+  Channel Depths:
+    Gray:     8 bits
+  Channel Statistics:
+    Gray:
+      Minimum:                    27.00 (0.1059)
+      Maximum:                   229.00 (0.8980)
+      Mean:                       71.79 (0.2815)
+      Standard Deviation:         46.71 (0.1832)
+  Filesize: 23.7Mi
+  Interlace: No
+  Orientation: TopLeft
+  Background Color: white
+  Border Color: #DFDFDF
+  Matte Color: #BDBDBD
+  Page geometry: 2874x2160+0+0
+  Compose: Over
+  Dispose: Undefined
+  Iterations: 0
+  Compression: Undefined
+  Software: daVinci
+  Document: MX_0089014.dpx
+  DPX:file.version: V1.0
+  DPX:file.filename: MX_0089014.dpx
+  DPX:file.creation.datetime: 2014:12:16:17:32:31:EST
+  DPX:file.creator: daVinci
+  DPX:image.orientation: 0
+  DPX:source.x-offset: 0
+  DPX:source.y-offset: 0
+  DPX:source.x-center: 0
+  DPX:source.y-center: 0
+  DPX:source.x-original-size: 2874
+  DPX:source.y-original-size: 2160
+  DPX:source.aspect.ratio.horizontal: 16777216
+  DPX:source.aspect.ratio.vertical: 16777216
+  DPX:mp.format:  
+  DPX:mp.frame.position: 103239
+  DPX:mp.sequence.length: 16777216
+  DPX:mp.held.count: 16777216
+  DPX:mp.frame.rate: 24
+  DPX:mp.shutter.angle: 0
+  DPX:mp.frame.id:  
+  DPX:mp.slate.info: SLATE INFO
+  DPX:tv.time.code: 01:01:48:22
+  DPX:tv.user.bits: 00:00:00:00
+  DPX:tv.horizontal.sampling.rate: 0
+  DPX:tv.temporal.sampling.rate: 24
+  DPX:tv.sync.time: 0
+  DPX:tv.gamma: 0
+  DPX:tv.black.level: 0
+  DPX:tv.black.gain: 0
+  DPX:tv.breakpoint: 0
+  DPX:tv.white.level: 0
+  DPX:tv.integration.time: 0
+  DPX:user.data.id: daVinci
+  Signature: 8c25635ab590597b0ded48497eb089a8cb779bcd12d29a42912c09098827b2d8
+  Profile-DPXUSERDATA: 6144 bytes
+  Tainted: False
+  User Time: 0.070u
+  Elapsed Time: 0:01
+  Pixels Per Second: 16.4Mi
