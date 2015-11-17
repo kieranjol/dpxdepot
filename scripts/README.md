@@ -2,7 +2,7 @@
 
 Commands for writing DPX header information, encoding to derivative files, etc.
 
-##GraphicsMagick
+##GraphicsMagick batch editing script
 
 /GraphicsMagick/dpx_gmmetaedit.sh can be used to batch edit metadata in DPX image stacks. 
 
@@ -130,3 +130,4 @@ Note that GraphicsMagick will re-write the pixel data in DPX files along with an
 
 ##FFmpeg
 
+- TBD
