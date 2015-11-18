@@ -6,4 +6,4 @@
 
 - __/specifications__ - contains metadata specifications as defined by SMPTE 268 2014
 
-- ___/test_files__ - various test files including DPX image stacks, source film scans, DCPs, etc.
+- __/test_files__ - various test files including DPX image stacks, source film scans, DCPs, etc.
