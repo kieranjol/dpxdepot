@@ -14,7 +14,7 @@ ffmpeg -i DPXNAME_%06d.dpx -c:v v210 DPXtoProResHQ.mov
 
 #x264
 
-ffmpeg -i DPXNAME_%06D.dpx -c:v libx264 PDXtox264.mov
+ffmpeg -i DPXNAME_%06D.dpx -c:v libx264 -pix_fmt yuv420p PDXtox264.mov
 
 
 Note: for DPX sequences starting with 00086400 (captured at timecode 01:00:00:00), use the flag -start_number 0086400 before -i in the ffmpeg command. For example:
