@@ -1,0 +1,24 @@
+General
+Complete name                            : 00086400.dpx
+Format                                   : DPX
+Format version                           : Version 1.0
+File size                                : 12.2 MiB
+Encoded date                             : 2013-12-11T17:33:38Eas
+Writing library                          : daVinci
+
+Image
+Format                                   : DPX
+Format version                           : Version 1.0
+Width                                    : 2 048 pixels
+Height                                   : 1 556 pixels
+Display aspect ratio                     : 4:3
+Color space                              : RGB
+Bit depth                                : 10 bits
+Compression mode                         : Lossless
+Stream size                              : 12.2 MiB (100%)
+Writing library                          : daVinci
+Encoded date                             : 2013-12-11T17:33:38Eas
+Color primaries                          : Printing density
+Frame rate                               : 24.000
+
+

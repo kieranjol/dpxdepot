@@ -1,0 +1,41 @@
+ffmpeg started on 2016-05-21 at 08:20:47
+Report written to "dpx_to_ffv1MKV_and_framemd5.log"
+Command line:
+ffmpeg -i 00086400.dpx -report -c:v ffv1 -level 3 -g 1 -slicecrc 1 -slices 16 00086400.mkv -f framemd5 -an ffv1_mkv.md5
+ffmpeg version N-43344-g8767470 Copyright (c) 2000-2016 the FFmpeg developers
+  built with gcc 4.8 (Ubuntu 4.8.4-2ubuntu1~14.04.1)
+  configuration: --prefix=/home/kieranjol/.linuxbrew/Cellar/ffmpeg/HEAD --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=/usr/bin/gcc-4.8 --host-cflags='-Os -w -pipe -march=core2' --host-ldflags='-L/home/kieranjol/.linuxbrew/lib -Wl,--dynamic-linker=/home/kieranjol/.linuxbrew/lib/ld.so -Wl,-rpath,/home/kieranjol/.linuxbrew/lib' --enable-libx264 --enable-libmp3lame --enable-libxvid --enable-libfreetype --enable-libass --enable-vda
+  libavutil      55. 24.100 / 55. 24.100
+  libavcodec     57. 42.100 / 57. 42.100
+  libavformat    57. 36.100 / 57. 36.100
+  libavdevice    57.  0.101 / 57.  0.101
+  libavfilter     6. 45.100 /  6. 45.100
+  libavresample   3.  0.  0 /  3.  0.  0
+  libswscale      4.  1.100 /  4.  1.100
+  libswresample   2.  0.101 /  2.  0.101
+  libpostproc    54.  0.100 / 54.  0.100
+[dpx_pipe @ 0x1311a20] Stream #0: not enough frames to estimate rate; consider increasing probesize
+Input #0, dpx_pipe, from '00086400.dpx':
+  Duration: N/A, bitrate: N/A
+    Stream #0:0: Video: dpx, gbrp10le, 2048x1556 [SAR 1:1 DAR 512:389], 24 tbr, 25 tbn
+[ffv1 @ 0x1315ca0] bits_per_raw_sample > 8, forcing coder 1
+[matroska @ 0x1314160] Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+[framemd5 @ 0x1316680] Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+Output #0, matroska, to '00086400.mkv':
+  Metadata:
+    encoder         : Lavf57.36.100
+    Stream #0:0: Video: ffv1 (FFV1 / 0x31564646), gbrp10le, 2048x1556 [SAR 1:1 DAR 512:389], q=2-31, 200 kb/s, 24 fps, 1k tbn
+    Metadata:
+      encoder         : Lavc57.42.100 ffv1
+Output #1, framemd5, to 'ffv1_mkv.md5':
+  Metadata:
+    encoder         : Lavf57.36.100
+    Stream #1:0: Video: rawvideo (G3[0][10] / 0xA003347), gbrp10le, 2048x1556 [SAR 1:1 DAR 512:389], q=2-31, 200 kb/s, 24 fps, 24 tbn
+    Metadata:
+      encoder         : Lavc57.42.100 rawvideo
+Stream mapping:
+  Stream #0:0 -> #0:0 (dpx (native) -> ffv1 (native))
+  Stream #0:0 -> #1:0 (dpx (native) -> rawvideo (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.7 q=-0.0 q=-0.0 size=    3422kB time=00:00:00.04 bitrate=672716.2kbits/s speed=0.0304x    frame=    1 fps=0.7 q=-0.0 Lq=-0.0 size=    3422kB time=00:00:00.04 bitrate=672721.7kbits/s speed=0.0304x    
+video:22093kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

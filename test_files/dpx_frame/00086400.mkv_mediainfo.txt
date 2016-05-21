@@ -1,0 +1,35 @@
+General
+Unique ID                                : 88466839793003285871483865569709032002 (0x428E17F5236F05A45B42DF92B1E88242)
+Complete name                            : 00086400.mkv
+Format                                   : Matroska
+Format version                           : Version 4 / Version 2
+File size                                : 3.34 MiB
+Duration                                 : 42ms
+Overall bit rate                         : 667 Mbps
+Writing application                      : Lavf57.36.100
+Writing library                          : Lavf57.36.100 / Lavf57.36.100
+
+Video
+ID                                       : 1
+Format                                   : FFV1
+Format version                           : Version 3.4
+Format settings, GOP                     : N=1
+Codec ID                                 : V_MS/VFW/FOURCC / FFV1
+Duration                                 : 42ms
+Width                                    : 2 048 pixels
+Height                                   : 1 556 pixels
+Display aspect ratio                     : 4:3
+Frame rate mode                          : Constant
+Frame rate                               : 24.000 fps
+Color space                              : RGB
+Bit depth                                : 10 bits
+Compression mode                         : Lossless
+Writing library                          : Lavc57.42.100 ffv1
+Default                                  : Yes
+Forced                                   : No
+DURATION                                 : 00:00:00.042000000
+coder_type                               : Range Coder
+MaxSlicesCount                           : 16
+ErrorDetectionType                       : Per slice
+
+

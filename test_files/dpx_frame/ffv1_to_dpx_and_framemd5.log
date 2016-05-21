@@ -1,0 +1,46 @@
+ffmpeg started on 2016-05-21 at 08:22:58
+Report written to "ffv1_to_dpx_and_framemd5.log"
+Command line:
+ffmpeg -i 00086400.mkv ffv1_to_dpx.dpx -f framemd5 ffv1_to_dpx.md5
+ffmpeg version N-43344-g8767470 Copyright (c) 2000-2016 the FFmpeg developers
+  built with gcc 4.8 (Ubuntu 4.8.4-2ubuntu1~14.04.1)
+  configuration: --prefix=/home/kieranjol/.linuxbrew/Cellar/ffmpeg/HEAD --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=/usr/bin/gcc-4.8 --host-cflags='-Os -w -pipe -march=core2' --host-ldflags='-L/home/kieranjol/.linuxbrew/lib -Wl,--dynamic-linker=/home/kieranjol/.linuxbrew/lib/ld.so -Wl,-rpath,/home/kieranjol/.linuxbrew/lib' --enable-libx264 --enable-libmp3lame --enable-libxvid --enable-libfreetype --enable-libass --enable-vda
+  libavutil      55. 24.100 / 55. 24.100
+  libavcodec     57. 42.100 / 57. 42.100
+  libavformat    57. 36.100 / 57. 36.100
+  libavdevice    57.  0.101 / 57.  0.101
+  libavfilter     6. 45.100 /  6. 45.100
+  libavresample   3.  0.  0 /  3.  0.  0
+  libswscale      4.  1.100 /  4.  1.100
+  libswresample   2.  0.101 /  2.  0.101
+  libpostproc    54.  0.100 / 54.  0.100
+Input #0, matroska,webm, from '00086400.mkv':
+  Metadata:
+    ENCODER         : Lavf57.36.100
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 667388 kb/s
+    Stream #0:0: Video: ffv1 (FFV1 / 0x31564646), gbrp10le, 2048x1556, SAR 1:1 DAR 512:389, 24 fps, 24 tbr, 1k tbn (default)
+    Metadata:
+      ENCODER         : Lavc57.42.100 ffv1
+      DURATION        : 00:00:00.042000000
+[image2 @ 0x22eb640] Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+[framemd5 @ 0x22ef800] Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.
+Output #0, image2, to 'ffv1_to_dpx.dpx':
+  Metadata:
+    encoder         : Lavf57.36.100
+    Stream #0:0: Video: dpx, gbrp10le, 2048x1556 [SAR 1:1 DAR 512:389], q=2-31, 200 kb/s, 24 fps, 24 tbn (default)
+    Metadata:
+      DURATION        : 00:00:00.042000000
+      encoder         : Lavc57.42.100 dpx
+Output #1, framemd5, to 'ffv1_to_dpx.md5':
+  Metadata:
+    encoder         : Lavf57.36.100
+    Stream #1:0: Video: rawvideo (G3[0][10] / 0xA003347), gbrp10le, 2048x1556 [SAR 1:1 DAR 512:389], q=2-31, 200 kb/s, 24 fps, 24 tbn (default)
+    Metadata:
+      DURATION        : 00:00:00.042000000
+      encoder         : Lavc57.42.100 rawvideo
+Stream mapping:
+  Stream #0:0 -> #0:0 (ffv1 (native) -> dpx (native))
+  Stream #0:0 -> #1:0 (ffv1 (native) -> rawvideo (native))
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:00.04 bitrate=N/A speed=0.0585x    frame=    1 fps=0.0 q=-0.0 Lq=-0.0 size=N/A time=00:00:00.04 bitrate=N/A speed=0.0585x    
+video:31122kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
